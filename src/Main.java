@@ -4,7 +4,7 @@ public class Main {
 	private static ISubscriber subscribers [] = {
 
 			new SphereArea(), new LucasSeries(),
-			new Spherevolume()
+			new Spherevolume(), new summationSeries()
 
 	};
 	public static void main(String[] args) {
