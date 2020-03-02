@@ -8,7 +8,7 @@ public class SphereCircumference implements ISubscriber{
 
             double circumference = (2 * Math.PI * radius);
 
-            System.out.println("Sphere Circumference : " + circumference);
+            System.out.println("Sphere Circumference = " + circumference);
         }
         catch (Exception e)
         {
