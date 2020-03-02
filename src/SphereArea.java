@@ -9,6 +9,5 @@ public class SphereArea implements ISubscriber {
         double Calculate_Area(double radius){
             return (4 * pi * radius * radius);
         }
-
-    }
 }
+
