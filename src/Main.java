@@ -3,8 +3,10 @@ import java.util.Scanner;
 public class Main {
 	private static ISubscriber subscribers [] = {
 
-			new SphereArea(), new LucasSeries(),
+			new SphereArea(), new LucasSeries() , new SphereCircumference() , new summationSeries(),	
+      new SphereArea(), new LucasSeries(),
 			new Spherevolume()
+
 
 	};
 	public static void main(String[] args) {
