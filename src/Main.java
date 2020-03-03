@@ -6,7 +6,7 @@ public class Main {
 			new SphereArea(), new LucasSeries(),
     new CircleArea() , new SphereCircumference () ,
 			new Spherevolume(), new summationSeries()
-      , new Fibonacci() , new MultiplicationSeries ()
+      , new Fibonacci() , new MultiplicationSeries (), new CircleVolum()
 
 	};
 	public static void main(String[] args) {
