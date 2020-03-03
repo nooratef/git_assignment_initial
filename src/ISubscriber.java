@@ -1,4 +1,7 @@
 
 public interface ISubscriber {
-	public abstract void notifySubscriber(String input);
+	default void notifySubscriberThreaded(String input){
+		new Thread(() -> notifySubscriber(input)).start();
+	}
+	void notifySubscriber(String input);
 }
